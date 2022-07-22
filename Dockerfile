@@ -1,2 +1,3 @@
 FROM balenalib/raspberrypi3-alpine-python
-CMD ["python", "app.py"]
+COPY . .
+CMD ["python", "./app.py"]
